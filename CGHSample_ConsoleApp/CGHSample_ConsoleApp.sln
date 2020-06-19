@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CGHSample_ConsoleApp", "CGHSample_ConsoleApp\CGHSample_ConsoleApp.csproj", "{E4402A06-6AAF-4781-B053-EC4E1BAA15E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModelLibrary", "ModelLibrary\ModelLibrary.csproj", "{F396C7D4-3EA0-4320-BA51-D8979B256C9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGenHero", "CodeGenHero\CodeGenHero.csproj", "{44DBE394-A3DE-45EE-BC97-A62A7077D577}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4402A06-6AAF-4781-B053-EC4E1BAA15E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4402A06-6AAF-4781-B053-EC4E1BAA15E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4402A06-6AAF-4781-B053-EC4E1BAA15E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4402A06-6AAF-4781-B053-EC4E1BAA15E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F396C7D4-3EA0-4320-BA51-D8979B256C9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F396C7D4-3EA0-4320-BA51-D8979B256C9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F396C7D4-3EA0-4320-BA51-D8979B256C9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F396C7D4-3EA0-4320-BA51-D8979B256C9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44DBE394-A3DE-45EE-BC97-A62A7077D577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44DBE394-A3DE-45EE-BC97-A62A7077D577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44DBE394-A3DE-45EE-BC97-A62A7077D577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44DBE394-A3DE-45EE-BC97-A62A7077D577}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		CodeGenHero_Project_Name = CodeGenHero\CodeGenHero.csproj
+		SolutionGuid = {51C8216E-C085-4A65-AB54-53CB56D35A21}
+	EndGlobalSection
+EndGlobal
