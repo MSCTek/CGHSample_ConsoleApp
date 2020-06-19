@@ -8,7 +8,7 @@ namespace ModelLibrary.ModelObj.Blogger
 	{
 		public Blog()
 		{
-			Posts = new System.Collections.Generic.List<ConsoleApp2.Post>(); // Reverse Navigation
+			Posts = new System.Collections.Generic.List<Post>(); // Reverse Navigation
 
 			InitializePartial();
 		}
@@ -37,7 +37,7 @@ namespace ModelLibrary.ModelObj.Blogger
 			}
 		}
 
-		public virtual System.Collections.Generic.IList<ConsoleApp2.Post> Posts { get; set; } 
+		public virtual System.Collections.Generic.IList<Post> Posts { get; set; } 
 
 
 		partial void InitializePartial();
